@@ -1,0 +1,1 @@
+int getPrimeList(int n, int **list);
