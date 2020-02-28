@@ -5,3 +5,12 @@
 ~~~
 + 使用gcc9编译，运行于WSL Ubuntu 19.10
 + 计划使用OpenMP进行并行化
+
+---
+## Usage:
+### Build:
++ 串行：make **serial**
++ 并行：make **parallel**
+### Run:
++ 串行：./bin/serial
++ 并行：./bin/parallel [thread number]

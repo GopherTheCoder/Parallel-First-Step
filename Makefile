@@ -14,7 +14,7 @@ obj/pmain.o: main.c
 	cc -g -DPARALLEL -fopenmp -c $^ -o $@
 
 obj/prime.o: prime.c
-	cc -g -c $^ -o $@
+	cc -g -std=c99 -c $^ -o $@
 
 clean:
 	rm -f bin/* obj/*
